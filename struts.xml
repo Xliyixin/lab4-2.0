@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="default" extends="struts-default">
+		<action name="Author" class="ACTION" method="listauthor">
+			<result>author.jsp</result>
+		</action>
+		<action name="Book" class="ACTION" method="listbook">
+			<result>book.jsp</result>
+		</action>
+		<action name="Bookinfo" class="ACTION" method="bookinfo">
+			<result>bookinfo.jsp</result>
+		</action>
+		<action name="Deletebook" class="ACTION" method="removebook">
+			<result>result.jsp</result>
+		</action>
+		<action name="Editbook" class="ACTION" method="editbook">
+			<result>edit.jsp</result>
+		</action>
+		<action name="Addbook" class="ACTION" method="addbook">
+			<result>result.jsp</result>
+		</action>
+	</package>
+</struts>
+
+<!-- <?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE struts PUBLIC "-//Apache 
+	Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd"> 
+	<struts> <constant name="struts.enable.DynamicMethodInvocation" value="false" 
+	/> <constant name="struts.devMode" value="true" /> <package name="default" 
+	namespace="/" extends="struts-default"> <action name="hello"> <result> /hello.jsp 
+	</result> </action> </package> </struts> -->
