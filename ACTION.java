@@ -15,6 +15,9 @@ public class ACTION extends ActionSupport {
 	private ArrayList<AUTHOR> authors;// 所有作者列表
 	private AUTHORDATA authordata = AUTHORDATA.getInstance();// 链接作者的数据
 
+	/**
+	first mod
+	**/
 
 	public String getIsbn() {
 		return isbn;

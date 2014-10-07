@@ -6,6 +6,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class AUTHORDATA {
+	/*
+	third mod
+	*/
 	private static final AUTHORDATA instance;
 	static {
 		instance = new AUTHORDATA();

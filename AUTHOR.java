@@ -15,6 +15,10 @@ public class AUTHOR {
 		this.country = country;
 	}
 
+	/*
+	second mod
+	*/
+
 	public String getId() {
 		return id;
 	}
